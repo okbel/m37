@@ -1,6 +1,6 @@
 {
   "announcementBar": {
-    "text": "Suscribe now on Apple Podcasts"
+    "text": "Subscribe now on Apple Podcasts"
   },
   "navBar": {
     "links": [
@@ -18,5 +18,8 @@
         "primary": true
       }
     ]
+  },
+  "footer": {
+    "text": "Movimiento 37"
   }
 }

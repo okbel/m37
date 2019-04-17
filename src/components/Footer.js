@@ -2,15 +2,16 @@ import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
 
-const Bar = styled.div`
-  height: 50px;
-  text-align: center;
-  background-color: #3549bb;
+const Root = styled.div`
+  padding-top: 60px;
+  background-color: #222;
   color: #fff;
-  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  height: 120px;
 `;
 
-const AnnouncementBar = () => {
+const Footer = () => {
   return (
     <StaticQuery
       query={graphql`
@@ -18,7 +19,7 @@ const AnnouncementBar = () => {
           allDataJson {
             edges {
               node {
-                announcementBar {
+                footer {
                   text
                 }
               }
@@ -27,10 +28,10 @@ const AnnouncementBar = () => {
         }
       `}
       render={(data) => (
-        <Bar>{data.allDataJson.edges[0].node.announcementBar.text}</Bar>
+        <Root>{data.allDataJson.edges[0].node.footer.text}</Root>
       )}
     />
   );
 };
 
-export default AnnouncementBar;
+export default Footer;

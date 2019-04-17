@@ -7,13 +7,18 @@ import NavBar from './NavBar';
 const Root = styled.header`
   display: flex;
   flex-direction: row;
+  height: 130px;
+  justify-content: center;
+  padding: 60px 0;
 `;
 
 const Logo = styled.h1`
   flex: 0;
+  margin: 0;
+  align-content: center;
   a {
     text-decoration: none;
-    color: blue;
+    color: #222;
   }
 `;
 

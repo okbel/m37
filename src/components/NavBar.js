@@ -2,9 +2,8 @@ import { graphql, Link, StaticQuery } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
 
-const Root = styled.ul`
+const Root = styled.div`
   flex: 1;
-  height: 130px;
 `;
 
 const Menu = styled.ul`
@@ -21,13 +20,16 @@ const Item = styled.li`
   margin-right: 10px;
   padding: 5px 10px;
   border-radius: 10px;
+  font-weight: bold;
 
   a {
     text-decoration: none;
     color: #222;
   }
+
   ${(props) =>
-    console.log(props) || (props.primary && `background-color: yellow;`)}
+    props.primary &&
+    `background-color: #3549BB; color: #fff; a { color: #fff;}`}
 `;
 
 const NavBar = () => {

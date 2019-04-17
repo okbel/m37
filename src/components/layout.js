@@ -2,8 +2,9 @@ import { graphql, StaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import AnnouncementBar from './AnnouncementBar';
+import Footer from './Footer';
+import Grid from './Grid';
 import Header from './header';
-import './layout.css';
 import Wrapper from './Wrapper';
 
 const Layout = ({ children }) => (
@@ -19,13 +20,14 @@ const Layout = ({ children }) => (
     `}
     render={(data) => (
       <>
+        <div>{children}</div>
         <AnnouncementBar />
         <Wrapper>
           <Header siteTitle={data.site.siteMetadata.title} />
-          <div>
-            <main>{children}</main>
-            <footer>m37</footer>
-          </div>
+          <main>
+            <Grid />
+          </main>
+          <Footer />
         </Wrapper>
       </>
     )}

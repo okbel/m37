@@ -1130,12 +1130,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-17T00:32:52.904Z",
+      "buildTime": "2019-04-17T01:17:26.246Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "120acb2f2ac068b7f13ca58496d0bd48",
+        "contentDigest": "89ea84fd3d10b84eba07826ae2153953",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1145,7 +1145,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "651b5193f8e0573822851caf293a0eea",
+        "contentDigest": "1ae51b22f44e026f8e8b3c556d50a1db",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1157,7 +1157,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-04-16T23:12:40.786Z",
-      "accessTime": "2019-04-17T00:32:55.626Z",
+      "accessTime": "2019-04-17T01:17:29.391Z",
       "changeTime": "2019-04-16T23:12:40.786Z",
       "birthTime": "2019-04-16T23:12:40.784Z",
       "root": "/",
@@ -1175,11 +1175,11 @@
       "blksize": 4194304,
       "ino": 8611537713,
       "blocks": 0,
-      "atimeMs": 1555461175625.654,
+      "atimeMs": 1555463849390.5007,
       "mtimeMs": 1555456360785.6216,
       "ctimeMs": 1555456360785.6216,
       "birthtimeMs": 1555456360783.7534,
-      "atime": "2019-04-17T00:32:55.626Z",
+      "atime": "2019-04-17T01:17:29.391Z",
       "mtime": "2019-04-16T23:12:40.786Z",
       "ctime": "2019-04-16T23:12:40.786Z",
       "birthtime": "2019-04-16T23:12:40.784Z"
@@ -1303,7 +1303,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "4010ef5f5d778d8fe97dd1da3fbdc788",
+        "contentDigest": "d16901f5eabb58f53e8464872dcbd358",
         "type": "Directory",
         "description": "Directory \"src/data\"",
         "owner": "gatsby-source-filesystem"
@@ -1315,7 +1315,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2019-04-16T23:30:24.307Z",
-      "accessTime": "2019-04-17T00:32:55.638Z",
+      "accessTime": "2019-04-17T01:17:29.402Z",
       "changeTime": "2019-04-16T23:30:24.307Z",
       "birthTime": "2019-04-16T23:30:11.786Z",
       "root": "/",
@@ -1333,11 +1333,11 @@
       "blksize": 4194304,
       "ino": 8611587533,
       "blocks": 0,
-      "atimeMs": 1555461175638.395,
+      "atimeMs": 1555463849401.7356,
       "mtimeMs": 1555457424307.3877,
       "ctimeMs": 1555457424307.3877,
       "birthtimeMs": 1555457411786.2766,
-      "atime": "2019-04-17T00:32:55.638Z",
+      "atime": "2019-04-17T01:17:29.402Z",
       "mtime": "2019-04-16T23:30:24.307Z",
       "ctime": "2019-04-16T23:30:24.307Z",
       "birthtime": "2019-04-16T23:30:11.786Z"
@@ -1349,7 +1349,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "8fe6660b6b6e5cb353a892544833d541",
+        "contentDigest": "35e97a8974f4b164f7bfea6e1f2cf52f",
         "type": "File",
         "mediaType": "application/json",
         "description": "File \"src/data/home.json\"",
@@ -1359,11 +1359,11 @@
       "absolutePath": "/Users/belencurcio/Develop/m37/src/data/home.json",
       "relativePath": "home.json",
       "extension": "json",
-      "size": 366,
-      "prettySize": "366 B",
-      "modifiedTime": "2019-04-17T00:31:31.899Z",
-      "accessTime": "2019-04-17T00:31:31.899Z",
-      "changeTime": "2019-04-17T00:31:31.899Z",
+      "size": 414,
+      "prettySize": "414 B",
+      "modifiedTime": "2019-04-17T00:50:11.494Z",
+      "accessTime": "2019-04-17T00:50:11.493Z",
+      "changeTime": "2019-04-17T00:50:11.494Z",
       "birthTime": "2019-04-16T23:30:24.307Z",
       "root": "/",
       "dir": "/Users/belencurcio/Develop/m37/src/data",
@@ -1380,18 +1380,18 @@
       "blksize": 4194304,
       "ino": 8611587560,
       "blocks": 8,
-      "atimeMs": 1555461091898.853,
-      "mtimeMs": 1555461091899.1536,
-      "ctimeMs": 1555461091899.1536,
+      "atimeMs": 1555462211492.7966,
+      "mtimeMs": 1555462211493.5024,
+      "ctimeMs": 1555462211493.5024,
       "birthtimeMs": 1555457424307.3591,
-      "atime": "2019-04-17T00:31:31.899Z",
-      "mtime": "2019-04-17T00:31:31.899Z",
-      "ctime": "2019-04-17T00:31:31.899Z",
+      "atime": "2019-04-17T00:50:11.493Z",
+      "mtime": "2019-04-17T00:50:11.494Z",
+      "ctime": "2019-04-17T00:50:11.494Z",
       "birthtime": "2019-04-16T23:30:24.307Z"
     },
     "f066f8d9-05b0-50c9-90a0-d91a6694fb77": {
       "announcementBar": {
-        "text": "Suscribe now on Apple Podcasts"
+        "text": "Subscribe now on Apple Podcasts"
       },
       "navBar": {
         "links": [
@@ -1410,11 +1410,14 @@
           }
         ]
       },
+      "footer": {
+        "text": "Movimiento 37"
+      },
       "id": "f066f8d9-05b0-50c9-90a0-d91a6694fb77",
       "children": [],
       "parent": "0404f5f2-3ad4-5c0a-8844-ec107018b21c",
       "internal": {
-        "contentDigest": "de0ce1e673245c5a7398e56f429588c8",
+        "contentDigest": "625f4f4aac8e3e8edb1e0b3bf2049cae",
         "type": "DataJson",
         "owner": "gatsby-transformer-json"
       }
@@ -1523,6 +1526,7 @@
     },
     "connections": {
       "DataJson": [
+        "sq--src-components-footer-js",
         "sq--src-components-announcement-bar-js",
         "sq--src-components-nav-bar-js"
       ]
@@ -1538,7 +1542,8 @@
     "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "sq--src-components-image-js": 2011440971,
     "sq--src-components-announcement-bar-js": 492720471,
-    "sq--src-components-nav-bar-js": 3999498084
+    "sq--src-components-nav-bar-js": 3999498084,
+    "sq--src-components-footer-js": 3297163234
   },
   "components": {
     "/Users/belencurcio/Develop/m37/.cache/dev-404-page.js": {
@@ -1592,14 +1597,6 @@
       "query": "query usersBelencurcioDevelopM37SrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
     },
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "/Users/belencurcio/Develop/m37/src/components/layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
-    },
     "sq--src-components-seo-js": {
       "name": "usersBelencurcioDevelopM37SrcComponentsSeoJs2417117884",
       "componentPath": "/Users/belencurcio/Develop/m37/src/components/seo.js",
@@ -1615,6 +1612,22 @@
       "jsonName": "sq--src-components-nav-bar-js",
       "query": "query usersBelencurcioDevelopM37SrcComponentsNavBarJs3999498084 {\n  allDataJson {\n    edges {\n      node {\n        navBar {\n          links {\n            name\n            path\n            primary\n          }\n        }\n      }\n    }\n  }\n}\n",
       "hash": 3999498084
+    },
+    "sq--src-components-footer-js": {
+      "name": "usersBelencurcioDevelopM37SrcComponentsFooterJs3297163234",
+      "componentPath": "/Users/belencurcio/Develop/m37/src/components/Footer.js",
+      "id": "sq--src-components-footer-js",
+      "jsonName": "sq--src-components-footer-js",
+      "query": "query usersBelencurcioDevelopM37SrcComponentsFooterJs3297163234 {\n  allDataJson {\n    edges {\n      node {\n        footer {\n          text\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 3297163234
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/Users/belencurcio/Develop/m37/src/components/Layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
     }
   }
 }
