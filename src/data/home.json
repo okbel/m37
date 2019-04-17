@@ -1,0 +1,22 @@
+{
+  "announcementBar": {
+    "text": "Suscribe now on Apple Podcasts"
+  },
+  "navBar": {
+    "links": [
+      {
+        "name": "About",
+        "path": "/about"
+      },
+      {
+        "name": "Episodes",
+        "path": "/episodes"
+      },
+      {
+        "name": "Subscribe Now",
+        "path": "http://google.com",
+        "primary": true
+      }
+    ]
+  }
+}
