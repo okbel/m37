@@ -17,6 +17,14 @@ const Item = styled.div`
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  transition: background-color 0.15s ease-in;
+  cursor: pointer;
+  min-width: 340px;
+  justify-content: center;
+
+  &:hover {
+    background-color: rgba(255, 202, 0, 0.5);
+  }
 `;
 
 const Number = styled.div`
@@ -29,7 +37,8 @@ const Number = styled.div`
 `;
 
 const Center = styled.span`
-  /* align-self: center; */
+  padding: 20px;
+  box-sizing: border-box;
 `;
 
 const data = [
@@ -54,22 +63,12 @@ const data = [
     date: 'Apr 15, 2019',
   },
   {
-    id: 4,
+    id: 5,
     title: 'GraphQL con Algo',
     date: 'Apr 15, 2019',
   },
   {
-    id: 4,
-    title: 'GraphQL con Algo',
-    date: 'Apr 15, 2019',
-  },
-  {
-    id: 4,
-    title: 'GraphQL con Algo',
-    date: 'Apr 15, 2019',
-  },
-  {
-    id: 4,
+    id: 6,
     title: 'GraphQL con Algo',
     date: 'Apr 15, 2019',
   },

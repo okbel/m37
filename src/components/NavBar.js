@@ -18,18 +18,26 @@ const Item = styled.li`
   text-decoration: none;
   list-style: none;
   margin-right: 10px;
-  padding: 5px 10px;
-  border-radius: 10px;
+  padding: 7px 14px;
+  border-radius: 5px;
   font-weight: bold;
+  letter-spacing: 0.5px;
 
   a {
     text-decoration: none;
     color: #222;
+    transition: color 0.15s ease-in;
   }
 
   ${(props) =>
     props.primary &&
     `background-color: #3549BB; color: #fff; a { color: #fff;}`}
+
+  &:hover {
+    a {
+      color: #ffca00;
+    }
+  }
 `;
 
 const NavBar = () => {
