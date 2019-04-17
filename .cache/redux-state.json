@@ -1526,8 +1526,8 @@
     },
     "connections": {
       "DataJson": [
-        "sq--src-components-footer-js",
         "sq--src-components-announcement-bar-js",
+        "sq--src-components-footer-js",
         "sq--src-components-nav-bar-js"
       ]
     }

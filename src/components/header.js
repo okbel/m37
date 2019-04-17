@@ -10,6 +10,8 @@ const Root = styled.header`
   height: 130px;
   justify-content: center;
   padding: 60px 0;
+  box-sizing: border-box;
+  border-bottom: solid 1px #ffca00;
 `;
 
 const Logo = styled.h1`

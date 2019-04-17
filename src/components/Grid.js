@@ -1,9 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+
 const Root = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 20px 0;
+  flex-wrap: wrap;
 `;
 
 const Item = styled.div`
@@ -11,6 +14,9 @@ const Item = styled.div`
   border: solid 1px #ffca00;
   background-color: white;
   height: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 `;
 
 const Number = styled.div`
@@ -22,7 +28,9 @@ const Number = styled.div`
   padding: 10px;
 `;
 
-const Center = styled.div``;
+const Center = styled.span`
+  /* align-self: center; */
+`;
 
 const data = [
   {
@@ -37,6 +45,26 @@ const data = [
   },
   {
     id: 3,
+    title: 'GraphQL con Algo',
+    date: 'Apr 15, 2019',
+  },
+  {
+    id: 4,
+    title: 'GraphQL con Algo',
+    date: 'Apr 15, 2019',
+  },
+  {
+    id: 4,
+    title: 'GraphQL con Algo',
+    date: 'Apr 15, 2019',
+  },
+  {
+    id: 4,
+    title: 'GraphQL con Algo',
+    date: 'Apr 15, 2019',
+  },
+  {
+    id: 4,
     title: 'GraphQL con Algo',
     date: 'Apr 15, 2019',
   },
