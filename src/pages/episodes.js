@@ -4,8 +4,8 @@ import SEO from '../components/seo';
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>About</h1>
+    <SEO title="Episodes" />
+    <h1>Episodes</h1>
   </Layout>
 );
 

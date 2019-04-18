@@ -1,8 +1,7 @@
 {
   "about": {
-    "content": {
-      "text": "M37 is a podcast about the present and the future of technology."
-    }
+    "title": "About",
+    "text": "M37 is a podcast about the present and the future of technology."
   },
   "layout": {
     "announcementBar": {

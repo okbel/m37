@@ -58,19 +58,17 @@ const NavBar = () => {
           }
         }
       `}
-      render={(data) =>
-        console.log('data', data) || (
-          <Root>
-            <Menu>
-              {data.dataJson.layout.navBar.links.map((i) => (
-                <Item primary={i.primary}>
-                  <Link to={i.path}>{i.name}</Link>
-                </Item>
-              ))}
-            </Menu>
-          </Root>
-        )
-      }
+      render={(data) => (
+        <Root>
+          <Menu>
+            {data.dataJson.layout.navBar.links.map((i) => (
+              <Item primary={i.primary}>
+                <Link to={i.path}>{i.name}</Link>
+              </Item>
+            ))}
+          </Menu>
+        </Root>
+      )}
     />
   );
 };

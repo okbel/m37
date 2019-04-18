@@ -31,7 +31,7 @@ const Text = styled.div`
   letter-spacing: 0.5px;
 `;
 
-const Footer = (data) => (
+const Footer = ({ data }) => (
   <Root>
     <Menu>
       {data.links.map((i) => (
