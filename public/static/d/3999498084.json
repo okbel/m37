@@ -1,1 +1,1 @@
-{"data":{"allDataJson":{"edges":[{"node":{"navBar":{"links":[{"name":"About","path":"/about","primary":null},{"name":"Episodes","path":"/episodes","primary":null},{"name":"Subscribe Now","path":"http://google.com","primary":true}]}}}]}}}
+{"errors":[{"message":"Cannot query field \"navBar\" on type \"DataJson\".","locations":[{"line":5,"column":9}]}]}

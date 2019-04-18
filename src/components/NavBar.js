@@ -45,32 +45,32 @@ const NavBar = () => {
     <StaticQuery
       query={graphql`
         {
-          allDataJson {
-            edges {
-              node {
-                navBar {
-                  links {
-                    name
-                    path
-                    primary
-                  }
+          dataJson {
+            layout {
+              navBar {
+                links {
+                  name
+                  path
+                  primary
                 }
               }
             }
           }
         }
       `}
-      render={(data) => (
-        <Root>
-          <Menu>
-            {data.allDataJson.edges[0].node.navBar.links.map((i) => (
-              <Item primary={i.primary}>
-                <Link to={i.path}>{i.name}</Link>
-              </Item>
-            ))}
-          </Menu>
-        </Root>
-      )}
+      render={(data) =>
+        console.log('data', data) || (
+          <Root>
+            <Menu>
+              {data.dataJson.layout.navBar.links.map((i) => (
+                <Item primary={i.primary}>
+                  <Link to={i.path}>{i.name}</Link>
+                </Item>
+              ))}
+            </Menu>
+          </Root>
+        )
+      }
     />
   );
 };

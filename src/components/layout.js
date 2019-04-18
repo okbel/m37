@@ -10,24 +10,43 @@ import Wrapper from './Wrapper';
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
-      query SiteTitleQuery {
+      query LayoutQuery {
         site {
           siteMetadata {
             title
           }
         }
+        dataJson {
+          layout {
+            announcementBar {
+              text
+            }
+            footer {
+              text
+              links {
+                name
+                path
+              }
+            }
+          }
+        }
       }
     `}
-    render={(data) => (
+    render={({
+      site,
+      dataJson: {
+        layout: { announcementBar, footer },
+      },
+    }) => (
       <>
         <div>{children}</div>
-        <AnnouncementBar />
+        <AnnouncementBar data={announcementBar} />
         <Wrapper>
-          <Header siteTitle={data.site.siteMetadata.title} />
+          <Header siteTitle={site.siteMetadata.title} />
           <main>
             <Grid />
           </main>
-          <Footer />
+          <Footer data={footer} />
         </Wrapper>
       </>
     )}

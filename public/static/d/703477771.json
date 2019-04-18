@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"footer\" on type \"DataJson\".","locations":[{"line":3,"column":5}]}]}

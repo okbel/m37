@@ -1,4 +1,3 @@
-import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -10,27 +9,6 @@ const Bar = styled.div`
   line-height: 50px;
 `;
 
-const AnnouncementBar = () => {
-  return (
-    <StaticQuery
-      query={graphql`
-        {
-          allDataJson {
-            edges {
-              node {
-                announcementBar {
-                  text
-                }
-              }
-            }
-          }
-        }
-      `}
-      render={(data) => (
-        <Bar>{data.allDataJson.edges[0].node.announcementBar.text}</Bar>
-      )}
-    />
-  );
-};
+const AnnouncementBar = ({ data }) => <Bar>{data.text}</Bar>;
 
 export default AnnouncementBar;

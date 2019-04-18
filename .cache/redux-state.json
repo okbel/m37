@@ -1130,12 +1130,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-17T01:17:26.246Z",
+      "buildTime": "2019-04-18T19:51:43.528Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "89ea84fd3d10b84eba07826ae2153953",
+        "contentDigest": "af98a32e56ddf299584bc838c0165986",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1145,7 +1145,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "1ae51b22f44e026f8e8b3c556d50a1db",
+        "contentDigest": "f54cf980e8978c3cf0b0a1e81c801fbb",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1157,7 +1157,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-04-16T23:12:40.786Z",
-      "accessTime": "2019-04-17T01:17:29.391Z",
+      "accessTime": "2019-04-18T19:51:46.116Z",
       "changeTime": "2019-04-16T23:12:40.786Z",
       "birthTime": "2019-04-16T23:12:40.784Z",
       "root": "/",
@@ -1175,11 +1175,11 @@
       "blksize": 4194304,
       "ino": 8611537713,
       "blocks": 0,
-      "atimeMs": 1555463849390.5007,
+      "atimeMs": 1555617106115.9893,
       "mtimeMs": 1555456360785.6216,
       "ctimeMs": 1555456360785.6216,
       "birthtimeMs": 1555456360783.7534,
-      "atime": "2019-04-17T01:17:29.391Z",
+      "atime": "2019-04-18T19:51:46.116Z",
       "mtime": "2019-04-16T23:12:40.786Z",
       "ctime": "2019-04-16T23:12:40.786Z",
       "birthtime": "2019-04-16T23:12:40.784Z"
@@ -1204,7 +1204,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-04-16T23:12:40.786Z",
-      "accessTime": "2019-04-17T00:20:36.836Z",
+      "accessTime": "2019-04-18T19:29:17.787Z",
       "changeTime": "2019-04-16T23:12:40.786Z",
       "birthTime": "2019-04-16T23:12:40.786Z",
       "root": "/",
@@ -1222,11 +1222,11 @@
       "blksize": 4194304,
       "ino": 8611537715,
       "blocks": 48,
-      "atimeMs": 1555460436835.7236,
+      "atimeMs": 1555615757787.4172,
       "mtimeMs": 1555456360785.8845,
       "ctimeMs": 1555456360785.8845,
       "birthtimeMs": 1555456360785.6143,
-      "atime": "2019-04-17T00:20:36.836Z",
+      "atime": "2019-04-18T19:29:17.787Z",
       "mtime": "2019-04-16T23:12:40.786Z",
       "ctime": "2019-04-16T23:12:40.786Z",
       "birthtime": "2019-04-16T23:12:40.786Z"
@@ -1261,7 +1261,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-04-16T23:12:40.785Z",
-      "accessTime": "2019-04-17T00:26:44.075Z",
+      "accessTime": "2019-04-18T19:29:16.056Z",
       "changeTime": "2019-04-16T23:12:40.785Z",
       "birthTime": "2019-04-16T23:12:40.784Z",
       "root": "/",
@@ -1279,11 +1279,11 @@
       "blksize": 4194304,
       "ino": 8611537714,
       "blocks": 328,
-      "atimeMs": 1555460804075.2803,
+      "atimeMs": 1555615756055.9302,
       "mtimeMs": 1555456360785.3625,
       "ctimeMs": 1555456360785.3625,
       "birthtimeMs": 1555456360783.8694,
-      "atime": "2019-04-17T00:26:44.075Z",
+      "atime": "2019-04-18T19:29:16.056Z",
       "mtime": "2019-04-16T23:12:40.785Z",
       "ctime": "2019-04-16T23:12:40.785Z",
       "birthtime": "2019-04-16T23:12:40.784Z"
@@ -1303,7 +1303,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d16901f5eabb58f53e8464872dcbd358",
+        "contentDigest": "b2c3ce46deb17f8e60f956ccc3f40716",
         "type": "Directory",
         "description": "Directory \"src/data\"",
         "owner": "gatsby-source-filesystem"
@@ -1314,9 +1314,9 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2019-04-16T23:30:24.307Z",
-      "accessTime": "2019-04-17T01:17:29.402Z",
-      "changeTime": "2019-04-16T23:30:24.307Z",
+      "modifiedTime": "2019-04-18T19:51:31.153Z",
+      "accessTime": "2019-04-18T19:51:46.126Z",
+      "changeTime": "2019-04-18T19:51:31.153Z",
       "birthTime": "2019-04-16T23:30:11.786Z",
       "root": "/",
       "dir": "/Users/belencurcio/Develop/m37/src",
@@ -1333,43 +1333,43 @@
       "blksize": 4194304,
       "ino": 8611587533,
       "blocks": 0,
-      "atimeMs": 1555463849401.7356,
-      "mtimeMs": 1555457424307.3877,
-      "ctimeMs": 1555457424307.3877,
+      "atimeMs": 1555617106125.7808,
+      "mtimeMs": 1555617091152.6372,
+      "ctimeMs": 1555617091152.6372,
       "birthtimeMs": 1555457411786.2766,
-      "atime": "2019-04-17T01:17:29.402Z",
-      "mtime": "2019-04-16T23:30:24.307Z",
-      "ctime": "2019-04-16T23:30:24.307Z",
+      "atime": "2019-04-18T19:51:46.126Z",
+      "mtime": "2019-04-18T19:51:31.153Z",
+      "ctime": "2019-04-18T19:51:31.153Z",
       "birthtime": "2019-04-16T23:30:11.786Z"
     },
-    "0404f5f2-3ad4-5c0a-8844-ec107018b21c": {
-      "id": "0404f5f2-3ad4-5c0a-8844-ec107018b21c",
+    "8c29ecc2-1a65-5ee7-8c1c-7abbf1451b7c": {
+      "id": "8c29ecc2-1a65-5ee7-8c1c-7abbf1451b7c",
       "children": [
-        "f066f8d9-05b0-50c9-90a0-d91a6694fb77"
+        "d51afe31-1113-57d5-af33-f3234488ae67"
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "35e97a8974f4b164f7bfea6e1f2cf52f",
+        "contentDigest": "1be8e3b93c22d9f3822d3aad88a48882",
         "type": "File",
         "mediaType": "application/json",
-        "description": "File \"src/data/home.json\"",
+        "description": "File \"src/data/en.json\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "__PROGRAMMATIC__",
-      "absolutePath": "/Users/belencurcio/Develop/m37/src/data/home.json",
-      "relativePath": "home.json",
+      "absolutePath": "/Users/belencurcio/Develop/m37/src/data/en.json",
+      "relativePath": "en.json",
       "extension": "json",
-      "size": 414,
-      "prettySize": "414 B",
-      "modifiedTime": "2019-04-17T00:50:11.494Z",
-      "accessTime": "2019-04-17T00:50:11.493Z",
-      "changeTime": "2019-04-17T00:50:11.494Z",
+      "size": 899,
+      "prettySize": "899 B",
+      "modifiedTime": "2019-04-18T19:51:31.153Z",
+      "accessTime": "2019-04-18T19:51:31.223Z",
+      "changeTime": "2019-04-18T19:51:31.153Z",
       "birthTime": "2019-04-16T23:30:24.307Z",
       "root": "/",
       "dir": "/Users/belencurcio/Develop/m37/src/data",
-      "base": "home.json",
+      "base": "en.json",
       "ext": ".json",
-      "name": "home",
+      "name": "en",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1380,44 +1380,65 @@
       "blksize": 4194304,
       "ino": 8611587560,
       "blocks": 8,
-      "atimeMs": 1555462211492.7966,
-      "mtimeMs": 1555462211493.5024,
-      "ctimeMs": 1555462211493.5024,
+      "atimeMs": 1555617091222.771,
+      "mtimeMs": 1555617091153,
+      "ctimeMs": 1555617091152.9617,
       "birthtimeMs": 1555457424307.3591,
-      "atime": "2019-04-17T00:50:11.493Z",
-      "mtime": "2019-04-17T00:50:11.494Z",
-      "ctime": "2019-04-17T00:50:11.494Z",
+      "atime": "2019-04-18T19:51:31.223Z",
+      "mtime": "2019-04-18T19:51:31.153Z",
+      "ctime": "2019-04-18T19:51:31.153Z",
       "birthtime": "2019-04-16T23:30:24.307Z"
     },
-    "f066f8d9-05b0-50c9-90a0-d91a6694fb77": {
-      "announcementBar": {
-        "text": "Subscribe now on Apple Podcasts"
+    "d51afe31-1113-57d5-af33-f3234488ae67": {
+      "about": {
+        "content": {
+          "text": "M37 is a podcast about the present and the future of technology."
+        }
       },
-      "navBar": {
-        "links": [
-          {
-            "name": "About",
-            "path": "/about"
-          },
-          {
-            "name": "Episodes",
-            "path": "/episodes"
-          },
-          {
-            "name": "Subscribe Now",
-            "path": "http://google.com",
-            "primary": true
-          }
-        ]
+      "layout": {
+        "announcementBar": {
+          "text": "Subscribe now on Apple Podcasts"
+        },
+        "navBar": {
+          "links": [
+            {
+              "name": "About",
+              "path": "/about"
+            },
+            {
+              "name": "Episodes",
+              "path": "/episodes"
+            },
+            {
+              "name": "Subscribe Now",
+              "path": "http://google.com",
+              "primary": true
+            }
+          ]
+        },
+        "footer": {
+          "text": "Movimiento 37",
+          "links": [
+            {
+              "name": "Spotify",
+              "path": "http://something."
+            },
+            {
+              "name": "Apple Podcast",
+              "path": "http://something."
+            },
+            {
+              "name": "Google Play",
+              "path": "http://something."
+            }
+          ]
+        }
       },
-      "footer": {
-        "text": "Movimiento 37"
-      },
-      "id": "f066f8d9-05b0-50c9-90a0-d91a6694fb77",
+      "id": "d51afe31-1113-57d5-af33-f3234488ae67",
       "children": [],
-      "parent": "0404f5f2-3ad4-5c0a-8844-ec107018b21c",
+      "parent": "8c29ecc2-1a65-5ee7-8c1c-7abbf1451b7c",
       "internal": {
-        "contentDigest": "625f4f4aac8e3e8edb1e0b3bf2049cae",
+        "contentDigest": "c5c5989c7ba8d363335ca1cdb90980d0",
         "type": "DataJson",
         "owner": "gatsby-transformer-json"
       }
@@ -1443,6 +1464,48 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/belencurcio/Develop/m37/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
+      "pluginCreatorId": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
+      "componentPath": "/Users/belencurcio/Develop/m37/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cc9a799d256d88fd9e868187132ed2d7",
+        "description": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /episodes/": {
+      "jsonName": "episodes-e7e",
+      "internalComponentName": "ComponentEpisodes",
+      "path": "/episodes/",
+      "component": "/Users/belencurcio/Develop/m37/src/pages/episodes.js",
+      "componentChunkName": "component---src-pages-episodes-js",
+      "isCreatedByStatefulCreatePages": true,
+      "context": {},
+      "pluginCreator___NODE": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
+      "pluginCreatorId": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
+      "componentPath": "/Users/belencurcio/Develop/m37/src/pages/episodes.js",
+      "id": "SitePage /episodes/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8372b4a8cea8f10447fa88c5d70aafab",
+        "description": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
@@ -1460,27 +1523,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "45e2d6d1f88a44e9041adea00ab423d7",
-        "description": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "jsonName": "page-2-fbc",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/belencurcio/Develop/m37/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "isCreatedByStatefulCreatePages": true,
-      "context": {},
-      "pluginCreator___NODE": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
-      "pluginCreatorId": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
-      "componentPath": "/Users/belencurcio/Develop/m37/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9442009c79cde755a8a2e0e8ceda2c78",
         "description": "edea68fb-c6c8-5e5b-adc3-77750f73fc44",
         "owner": "internal-data-bridge"
       }
@@ -1513,6 +1555,7 @@
   },
   "componentDataDependencies": {
     "nodes": {
+      "601a5bfc-746b-597d-86b7-c5f3f22f4144": [],
       "Site": [
         "sq--src-components-layout-js",
         "sq--src-components-seo-js"
@@ -1522,44 +1565,48 @@
       ],
       "74af34ad-e361-55e8-94dc-7bf0b0a59a29": [
         "sq--src-components-image-js"
+      ],
+      "f066f8d9-05b0-50c9-90a0-d91a6694fb77": [],
+      "d51afe31-1113-57d5-af33-f3234488ae67": [
+        "sq--src-components-layout-js",
+        "sq--src-components-nav-bar-js"
       ]
     },
     "connections": {
-      "DataJson": [
-        "sq--src-components-announcement-bar-js",
-        "sq--src-components-footer-js",
-        "sq--src-components-nav-bar-js"
-      ]
+      "DataJson": []
     }
   },
   "jsonDataPaths": {
-    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-footer-js": 4052323398,
+    "sq--src-components-announcement-bar-js": 870102179,
+    "sq--src-components-layout-js": 4151820513,
+    "sq--src-components-nav-bar-js": 370356928,
     "sq--src-components-seo-js": 2417117884,
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "about-f34": "708/path---about-f-34-4c2-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "page-2-fbc": "726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "sq--src-components-image-js": 2011440971,
-    "sq--src-components-announcement-bar-js": 492720471,
-    "sq--src-components-nav-bar-js": 3999498084,
-    "sq--src-components-footer-js": 3297163234
+    "about-1-8cd": "736/path---about-1-8-cd-ab7-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "episodes-e7e": "544/path---episodes-e-7-e-523-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
-    "/Users/belencurcio/Develop/m37/.cache/dev-404-page.js": {
-      "componentPath": "/Users/belencurcio/Develop/m37/.cache/dev-404-page.js",
-      "query": "",
-      "pages": [
-        "/dev-404-page/"
-      ],
-      "isInBootstrap": false
-    },
     "/Users/belencurcio/Develop/m37/src/pages/404.js": {
       "componentPath": "/Users/belencurcio/Develop/m37/src/pages/404.js",
       "query": "",
       "pages": [
         "/404/",
         "/404.html"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/belencurcio/Develop/m37/src/pages/about.js": {
+      "componentPath": "/Users/belencurcio/Develop/m37/src/pages/about.js",
+      "query": "",
+      "pages": [
+        "/about/"
       ],
       "isInBootstrap": false
     },
@@ -1571,24 +1618,24 @@
       ],
       "isInBootstrap": false
     },
-    "/Users/belencurcio/Develop/m37/src/pages/page-2.js": {
-      "componentPath": "/Users/belencurcio/Develop/m37/src/pages/page-2.js",
+    "/Users/belencurcio/Develop/m37/.cache/dev-404-page.js": {
+      "componentPath": "/Users/belencurcio/Develop/m37/.cache/dev-404-page.js",
       "query": "",
       "pages": [
-        "/page-2/"
+        "/dev-404-page/"
+      ],
+      "isInBootstrap": false
+    },
+    "/Users/belencurcio/Develop/m37/src/pages/episodes.js": {
+      "componentPath": "/Users/belencurcio/Develop/m37/src/pages/episodes.js",
+      "query": "",
+      "pages": [
+        "/episodes/"
       ],
       "isInBootstrap": false
     }
   },
   "staticQueryComponents": {
-    "sq--src-components-announcement-bar-js": {
-      "name": "usersBelencurcioDevelopM37SrcComponentsAnnouncementBarJs492720471",
-      "componentPath": "/Users/belencurcio/Develop/m37/src/components/AnnouncementBar.js",
-      "id": "sq--src-components-announcement-bar-js",
-      "jsonName": "sq--src-components-announcement-bar-js",
-      "query": "query usersBelencurcioDevelopM37SrcComponentsAnnouncementBarJs492720471 {\n  allDataJson {\n    edges {\n      node {\n        announcementBar {\n          text\n        }\n      }\n    }\n  }\n}\n",
-      "hash": 492720471
-    },
     "sq--src-components-image-js": {
       "name": "usersBelencurcioDevelopM37SrcComponentsImageJs2011440971",
       "componentPath": "/Users/belencurcio/Develop/m37/src/components/image.js",
@@ -1597,6 +1644,22 @@
       "query": "query usersBelencurcioDevelopM37SrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "hash": 2011440971
     },
+    "sq--src-components-layout-js": {
+      "name": "LayoutQuery",
+      "componentPath": "/Users/belencurcio/Develop/m37/src/components/Layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query LayoutQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  dataJson {\n    layout {\n      announcementBar {\n        text\n      }\n      footer {\n        text\n        links {\n          name\n          path\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 4151820513
+    },
+    "sq--src-components-nav-bar-js": {
+      "name": "usersBelencurcioDevelopM37SrcComponentsNavBarJs370356928",
+      "componentPath": "/Users/belencurcio/Develop/m37/src/components/NavBar.js",
+      "id": "sq--src-components-nav-bar-js",
+      "jsonName": "sq--src-components-nav-bar-js",
+      "query": "query usersBelencurcioDevelopM37SrcComponentsNavBarJs370356928 {\n  dataJson {\n    layout {\n      navBar {\n        links {\n          name\n          path\n          primary\n        }\n      }\n    }\n  }\n}\n",
+      "hash": 370356928
+    },
     "sq--src-components-seo-js": {
       "name": "usersBelencurcioDevelopM37SrcComponentsSeoJs2417117884",
       "componentPath": "/Users/belencurcio/Develop/m37/src/components/seo.js",
@@ -1604,30 +1667,6 @@
       "jsonName": "sq--src-components-seo-js",
       "query": "query usersBelencurcioDevelopM37SrcComponentsSeoJs2417117884 {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
       "hash": 2417117884
-    },
-    "sq--src-components-nav-bar-js": {
-      "name": "usersBelencurcioDevelopM37SrcComponentsNavBarJs3999498084",
-      "componentPath": "/Users/belencurcio/Develop/m37/src/components/NavBar.js",
-      "id": "sq--src-components-nav-bar-js",
-      "jsonName": "sq--src-components-nav-bar-js",
-      "query": "query usersBelencurcioDevelopM37SrcComponentsNavBarJs3999498084 {\n  allDataJson {\n    edges {\n      node {\n        navBar {\n          links {\n            name\n            path\n            primary\n          }\n        }\n      }\n    }\n  }\n}\n",
-      "hash": 3999498084
-    },
-    "sq--src-components-footer-js": {
-      "name": "usersBelencurcioDevelopM37SrcComponentsFooterJs3297163234",
-      "componentPath": "/Users/belencurcio/Develop/m37/src/components/Footer.js",
-      "id": "sq--src-components-footer-js",
-      "jsonName": "sq--src-components-footer-js",
-      "query": "query usersBelencurcioDevelopM37SrcComponentsFooterJs3297163234 {\n  allDataJson {\n    edges {\n      node {\n        footer {\n          text\n        }\n      }\n    }\n  }\n}\n",
-      "hash": 3297163234
-    },
-    "sq--src-components-layout-js": {
-      "name": "SiteTitleQuery",
-      "componentPath": "/Users/belencurcio/Develop/m37/src/components/Layout.js",
-      "id": "sq--src-components-layout-js",
-      "jsonName": "sq--src-components-layout-js",
-      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
-      "hash": 755544856
     }
   }
 }
