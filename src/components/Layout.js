@@ -4,7 +4,7 @@ import React from 'react';
 import '../utils/style.css';
 import AnnouncementBar from './AnnouncementBar';
 import Footer from './Footer';
-import Header from './header';
+import Header from './Header';
 import Wrapper from './Wrapper';
 
 const Layout = ({ children }) => (
