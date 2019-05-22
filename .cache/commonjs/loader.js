@@ -206,7 +206,7 @@ let prefetchCompleted = {};
 let disableCorePrefetching = false;
 const queue = {
   addPagesArray: newPages => {
-    findPage = (0, _findPage.default)(newPages, __PATH_PREFIX__);
+    findPage = (0, _findPage.default)(newPages, __BASE_PATH__);
   },
   addDevRequires: devRequires => {
     syncRequires = devRequires;

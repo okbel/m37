@@ -19,10 +19,6 @@ var _navigation = require("./navigation");
 
 var _apiRunnerBrowser = require("./api-runner-browser");
 
-var _syncRequires = _interopRequireDefault(require("./sync-requires"));
-
-var _pages = _interopRequireDefault(require("./pages.json"));
-
 var _loader = _interopRequireDefault(require("./loader"));
 
 var _jsonStore = _interopRequireDefault(require("./json-store"));
@@ -68,39 +64,34 @@ class RouteHandler extends _react.default.Component {
       }, _react.default.createElement(_gatsbyReactRouterScroll.ScrollContext, {
         location: location,
         shouldUpdateScroll: _navigation.shouldUpdateScroll
-      }, _react.default.createElement(_jsonStore.default, (0, _extends2.default)({
-        pages: _pages.default
-      }, this.props, locationAndPageResources)))));
+      }, _react.default.createElement(_jsonStore.default, (0, _extends2.default)({}, this.props, locationAndPageResources)))));
     } else {
-      const dev404Page = _pages.default.find(p => /^\/dev-404-page\/?$/.test(p.path));
+      const dev404PageResources = _loader.default.getResourcesForPathnameSync(`/dev-404-page/`);
 
-      const Dev404Page = _syncRequires.default.components[dev404Page.componentChunkName];
+      const real404PageResources = _loader.default.getResourcesForPathnameSync(`/404.html`);
 
-      if (!_loader.default.getPage(`/404.html`)) {
-        return _react.default.createElement(_navigation.RouteUpdates, {
-          location: location
-        }, _react.default.createElement(Dev404Page, (0, _extends2.default)({
-          pages: _pages.default
-        }, this.props)));
+      let custom404;
+
+      if (real404PageResources) {
+        custom404 = _react.default.createElement(_jsonStore.default, (0, _extends2.default)({}, this.props, {
+          pageResources: real404PageResources
+        }));
       }
 
-      return _react.default.createElement(_ensureResources.default, {
+      return _react.default.createElement(_navigation.RouteUpdates, {
         location: location
-      }, locationAndPageResources => _react.default.createElement(_navigation.RouteUpdates, {
-        location: location
-      }, _react.default.createElement(Dev404Page, (0, _extends2.default)({
-        pages: _pages.default,
-        custom404: _react.default.createElement(_jsonStore.default, (0, _extends2.default)({
-          pages: _pages.default
-        }, this.props, locationAndPageResources))
-      }, this.props))));
+      }, _react.default.createElement(_jsonStore.default, {
+        location: location,
+        pageResources: dev404PageResources,
+        custom404: custom404
+      }));
     }
   }
 
 }
 
 const Root = () => (0, _react.createElement)(_router.Router, {
-  basepath: __PATH_PREFIX__
+  basepath: __BASE_PATH__
 }, (0, _react.createElement)(RouteHandler, {
   path: `/*`
 })); // Let site, plugins wrap the site e.g. for Redux.

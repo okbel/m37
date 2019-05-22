@@ -40,27 +40,13 @@ window.___emitter = _emitter.default;
    * This is especially frustrating when you need to test the
    * production build on your local machine.
    *
-   * Let's unregister the service workers in development, and tidy up a few errors.
+   * Let's warn if we find service workers in development.
    */
 
 
-  if (supportsServiceWorkers(location, navigator)) {
+  if (`serviceWorker` in navigator) {
     navigator.serviceWorker.getRegistrations().then(registrations => {
-      for (var _iterator = registrations, _isArray = Array.isArray(_iterator), _i = 0, _iterator = _isArray ? _iterator : _iterator[Symbol.iterator]();;) {
-        var _ref;
-
-        if (_isArray) {
-          if (_i >= _iterator.length) break;
-          _ref = _iterator[_i++];
-        } else {
-          _i = _iterator.next();
-          if (_i.done) break;
-          _ref = _i.value;
-        }
-
-        let registration = _ref;
-        registration.unregister();
-      }
+      if (registrations.length > 0) console.warn(`Warning: found one or more service workers present.`, `If your site isn't behaving as expected, you might want to remove these.`, registrations);
     });
   }
 
@@ -71,7 +57,7 @@ window.___emitter = _emitter.default;
 
   _loader.default.addDevRequires(_syncRequires.default);
 
-  _loader.default.getResourcesForPathname(window.location.pathname).then(() => {
+  Promise.all([_loader.default.getResourcesForPathname(`/dev-404-page/`), _loader.default.getResourcesForPathname(`/404.html`), _loader.default.getResourcesForPathname(window.location.pathname)]).then(() => {
     const preferDefault = m => m && m.default || m;
 
     let Root = preferDefault(require(`./root`));
@@ -83,11 +69,3 @@ window.___emitter = _emitter.default;
     });
   });
 });
-
-function supportsServiceWorkers(location, navigator) {
-  if (location.hostname === `localhost` || location.protocol === `https:`) {
-    return `serviceWorker` in navigator;
-  }
-
-  return false;
-}

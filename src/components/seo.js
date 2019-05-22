@@ -9,8 +9,8 @@ function SEO({ description, lang, meta, keywords, title }) {
       query {
         site {
           siteMetadata {
-            title
-            description
+            siteTitle
+            siteDescription
             author
           }
         }
@@ -18,14 +18,15 @@ function SEO({ description, lang, meta, keywords, title }) {
     `
   );
 
-  const metaDescription = description || site.siteMetadata.description;
+  const metaDescription =
+    site.siteMetadata.siteDescription || site.siteMetadata.description;
 
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={site.siteMetadata.siteTitle}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {

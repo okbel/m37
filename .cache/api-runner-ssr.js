@@ -2,8 +2,17 @@ var plugins = [{
       plugin: require('/Users/belencurcio/Develop/m37/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/belencurcio/Develop/m37/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/belencurcio/Develop/m37/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/belencurcio/Develop/m37/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      options: {"plugins":[],"name":"m37","short_name":"m37","start_url":"/","background_color":"black","theme_color":"black","display":"minimal-ui"},
+    },{
+      plugin: require('/Users/belencurcio/Develop/m37/node_modules/gatsby-plugin-canonical-urls/gatsby-ssr'),
+      options: {"plugins":[],"siteUrl":"https://www.m37pod.com"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

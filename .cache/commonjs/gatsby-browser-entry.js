@@ -16,6 +16,7 @@ var _gatsbyLink = _interopRequireWildcard(require("gatsby-link"));
 
 exports.Link = _gatsbyLink.default;
 exports.withPrefix = _gatsbyLink.withPrefix;
+exports.withAssetPrefix = _gatsbyLink.withAssetPrefix;
 exports.navigate = _gatsbyLink.navigate;
 exports.push = _gatsbyLink.push;
 exports.replace = _gatsbyLink.replace;
@@ -63,5 +64,5 @@ StaticQuery.propTypes = {
 };
 
 function graphql() {
-  throw new Error(`It appears like Gatsby is misconfigured. Gatsby related \`graphql\` calls ` + `are supposed to only be evaluated at compile time, and then compiled away,. ` + `Unfortunately, something went wrong and the query was left in the compiled code.\n\n.` + `Unless your site has a complex or custom babel/Gatsby configuration this is likely a bug in Gatsby.`);
+  throw new Error(`It appears like Gatsby is misconfigured. Gatsby related \`graphql\` calls ` + `are supposed to only be evaluated at compile time, and then compiled away. ` + `Unfortunately, something went wrong and the query was left in the compiled code.\n\n` + `Unless your site has a complex or custom babel/Gatsby configuration this is likely a bug in Gatsby.`);
 }

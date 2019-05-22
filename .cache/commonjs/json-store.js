@@ -7,8 +7,6 @@ exports.default = void 0;
 
 var _extends2 = _interopRequireDefault(require("@babel/runtime/helpers/extends"));
 
-var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutPropertiesLoose"));
-
 var _defineProperty2 = _interopRequireDefault(require("@babel/runtime/helpers/defineProperty"));
 
 var _react = _interopRequireDefault(require("react"));
@@ -78,17 +76,13 @@ class JSONStore extends _react.default.Component {
   render() {
     const data = this.state.pageQueryData[getPathFromProps(this.props)]; // eslint-disable-next-line
 
-    const _this$props = this.props,
-          pages = _this$props.pages,
-          propsWithoutPages = (0, _objectWithoutPropertiesLoose2.default)(_this$props, ["pages"]);
-
     if (!data) {
       return _react.default.createElement("div", null);
     }
 
     return _react.default.createElement(_gatsby.StaticQueryContext.Provider, {
       value: this.state.staticQueryData
-    }, _react.default.createElement(_pageRenderer.default, (0, _extends2.default)({}, propsWithoutPages, data)));
+    }, _react.default.createElement(_pageRenderer.default, (0, _extends2.default)({}, this.props, data)));
   }
 
 }

@@ -1,7 +1,7 @@
 import { graphql, StaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import '../style.css';
+import '../utils/style.css';
 import AnnouncementBar from './AnnouncementBar';
 import Footer from './Footer';
 import Header from './header';
@@ -13,7 +13,7 @@ const Layout = ({ children }) => (
       query LayoutQuery {
         site {
           siteMetadata {
-            title
+            siteTitle
           }
         }
         dataJson {
@@ -41,7 +41,7 @@ const Layout = ({ children }) => (
       <>
         <AnnouncementBar data={announcementBar} />
         <Wrapper>
-          <Header siteTitle={site.siteMetadata.title} />
+          <Header siteTitle={site.siteMetadata.siteTitle} />
           <main>{children}</main>
           <Footer data={footer} />
         </Wrapper>

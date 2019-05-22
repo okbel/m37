@@ -18,6 +18,10 @@ const ProdPageRenderer = ({
 }) => {
   const pageResources = _loader.default.getResourcesForPathnameSync(location.pathname);
 
+  if (!pageResources) {
+    return null;
+  }
+
   return _react.default.createElement(_pageRenderer.default, Object.assign({
     location,
     pageResources

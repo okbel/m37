@@ -95,7 +95,8 @@ var _default = (pagePath, callback) => {
     setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
-    setBodyProps
+    setBodyProps,
+    pathname: pagePath
   });
   (0, _apiRunnerSsr.default)(`onPreRenderHTML`, {
     getHeadComponents,
@@ -103,7 +104,8 @@ var _default = (pagePath, callback) => {
     getPreBodyComponents,
     replacePreBodyComponents,
     getPostBodyComponents,
-    replacePostBodyComponents
+    replacePostBodyComponents,
+    pathname: pagePath
   });
 
   const htmlElement = _react.default.createElement(Html, Object.assign({}, bodyProps, {
