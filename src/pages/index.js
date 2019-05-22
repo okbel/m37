@@ -1,6 +1,6 @@
 import React from 'react';
 import Grid from '../components/Grid';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import Normalize from '../utils/Normalize.css';
 
